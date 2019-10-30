@@ -23,7 +23,6 @@ class Score extends Component {
     const homeTeam = home[0]
     const away = game.competitors.filter(team => team.homeAway === 'away')
     const awayTeam = away[0]
-    console.log(this.props.score)
     return (
       <View style={{
         flex: 1,

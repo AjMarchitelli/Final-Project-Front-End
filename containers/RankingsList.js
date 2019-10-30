@@ -11,8 +11,8 @@ class RankingsList extends Component {
         return (
           <Rank player={player} rank={index+1} key={`${Math.random()}`} />
         )
-      })
-    }
+      }
+    )}
   }
 
   renderTitle = () => {

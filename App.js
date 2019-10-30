@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   render() {
-    // if(this.state.currentUser === true){
+    if(this.state.currentUser === true){
       return (
         <Provider store={store}>
           <DrawerNavigator />
@@ -35,14 +35,14 @@ class App extends Component {
           </TouchableOpacity>
         </Provider>
       )
-    // } else {
-      // return (
-      //   <Provider store={store}>
-      //     <LogIn logIn={this.logIn}/>
-      //   </Provider>
-      // )
+    } else {
+      return (
+        <Provider store={store}>
+          <LogIn logIn={this.logIn}/>
+        </Provider>
+      )
     }}
-// }
+}
 
 const styles = StyleSheet.create({
   container: {

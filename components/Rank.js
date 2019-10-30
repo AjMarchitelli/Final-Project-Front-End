@@ -14,7 +14,6 @@ class Rank extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <View style={this.checkStyle()}>
         <Text style={{flex: 1}}>

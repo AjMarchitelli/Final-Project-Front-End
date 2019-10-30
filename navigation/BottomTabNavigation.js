@@ -61,7 +61,7 @@ const BottomNavigator = createMaterialBottomTabNavigator(
           </View>),
       }}
   }, {
-      initialRouteName: 'Rankings',
+      initialRouteName: 'Home',
       shifting: true,
       activeColor: 'white',
       // barStyle: {

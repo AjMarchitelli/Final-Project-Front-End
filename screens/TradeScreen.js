@@ -104,13 +104,12 @@ class TradeScreen extends Component {
 
     if(team1Value > team2Value){ winner = team1; loser = team2} else { winner = team2; loser = team1};
     if(team1Value > team2Value){ win = 'Team A'; lose = 'Team B'} else { win = 'Team B'; lose = 'Team A'};
-    console.log(winner)
-
+    
     Alert.alert(
       `${win}`,
       `The person getting the players on ${win} will have more value for the remainder of the season`,
       [
-        {text: 'OK', onPress: () => console.log('OK Pressed')},
+        {text: 'OK'},
       ],
       {cancelable: false},
     );
